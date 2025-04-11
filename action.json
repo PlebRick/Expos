@@ -1,0 +1,17 @@
+{
+  "schema_version": "v1",
+  "name_for_human": "Theology Topic Linker",
+  "name_for_model": "theologyTopicLinker",
+  "description_for_human": "Get Logos links to your theology library for studying doctrinal topics.",
+  "description_for_model": "Use this to fetch Logos deep links to theology books based on user-provided doctrinal topics.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://raw.githubusercontent.com/PlebRick/Expos/main/openapi.yaml"
+  },
+  "logo_url": "https://app.logos.com/favicon.ico",
+  "contact_email": "your-email@example.com",
+  "legal_info_url": "https://www.logos.com/legal"
+}
