@@ -4,8 +4,8 @@ info:
   description: Returns Logos deep links to theological books that discuss a given topic.
   version: 1.0.0
 servers:
-  - url: https://app.logos.com
-    description: Logos Bible Software Web App
+  - url: https://example.com
+    description: Dummy placeholder (Logos doesn’t expose a REST API)
 paths:
   /books/{resourceId}:
     get:
