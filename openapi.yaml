@@ -4,8 +4,8 @@ info:
   description: Returns Logos deep links to theological books that discuss a given topic.
   version: 1.0.0
 servers:
-  - url: https://example.com
-    description: Dummy server placeholder for spec validation
+  - url: https://httpbin.org
+    description: Dummy endpoint just to pass validation
 paths:
   /books/{resourceId}:
     get:
