@@ -4,8 +4,8 @@ info:
   description: Returns Logos deep links to theological books that discuss a given topic.
   version: 1.0.0
 servers:
-  - url: https://api.ping.gg
-    description: Placeholder server to satisfy OpenAI validation
+  - url: https://logos-api-proxy.vercel.app
+    description: Proxy endpoint to construct valid URLs for Logos books
 paths:
   /books/{resourceId}:
     get:
