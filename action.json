@@ -9,7 +9,7 @@
   },
   "api": {
     "type": "openapi",
-    "url": "https://raw.githubusercontent.com/PlebRick/Expos/main/openapi.yaml"
+    "url": "https://actions-server.vercel.app/theology/openapi.yaml"
   },
   "logo_url": "https://app.logos.com/favicon.ico",
   "contact_email": "your-email@example.com",
