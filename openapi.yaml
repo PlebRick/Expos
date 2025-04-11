@@ -1,0 +1,28 @@
+openapi: 3.1.0
+info:
+  title: Theology Topic Linker
+  description: Returns Logos deep links to theological books that discuss a given topic.
+  version: 1.0.0
+servers:
+  - url: https://app.logos.com
+    description: Logos Bible Software Web App
+paths:
+  /books/{resourceId}:
+    get:
+      operationId: getTheologyBookLink
+      summary: Returns a Logos deep link to a theology resource based on topic.
+      description: Returns a URL to open a Logos book related to a given theological topic.
+      parameters:
+        - name: resourceId
+          in: path
+          required: true
+          description: The Logos resource ID (LLS ID) of the book to open.
+          schema:
+            type: string
+      responses:
+        '200':
+          description: A plain-text Logos deep link
+          content:
+            text/plain:
+              schema:
+                type: string
